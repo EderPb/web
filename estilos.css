@@ -18,12 +18,12 @@ header{
 
 .container{
     align-items: center;
-    width: 40%;
+    width: 100%;
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 0px 1px 10px rgba(66, 65, 131, 0.2);
-    background: #2fb4cc;
+    background: #a8dbe4;
     cursor: default;
     transition: all 400ms ease;
     display: flex;
@@ -35,7 +35,7 @@ header{
     transform: translateY(-3%);
 }
 .card img{
-    width: 60%;
+    width: 100%;
     height: 200px;
 }
 .card.contenido{
@@ -66,15 +66,16 @@ header{
     transition: all 400ms ease;
 }
 .container2{
+    column-gap: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 100%;
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 0px 1px 10px rgba(66, 65, 131, 0.2);
-    background: #2fb4cc;
+    background: #c0e1e7;
     cursor: default;
     transition: all 400ms ease;
     
@@ -84,7 +85,7 @@ header{
     transform: translateY(-3%);
 }
 .card2 img{
-    width: 85%;
+    width: 100%;
     height: 200px;
 }
 .card2.contenido{
@@ -109,7 +110,7 @@ header{
     padding: 10px;
     margin-top: 10px;
     color: #2fb42f;
-    border: 1px solid #2fb4cc;
+    border: 1px solid #d0e7eb;
     border-radius: 4px;
     transition: all 400ms ease;
 }
@@ -129,15 +130,16 @@ header{
     transition: all 400ms ease;
 }
 .container3{
+    column-gap: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 100%;
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 0px 1px 10px rgba(66, 65, 131, 0.2);
-    background: #2fb4cc;
+    background: #86b3bb;
     cursor: default;
     transition: all 400ms ease;
     
@@ -147,7 +149,7 @@ header{
     transform: translateY(-3%);
 }
 .card3 img{
-    width: 120%;
+    width: 100%;
     height: 200px;
 }
 .card3.contenido{
