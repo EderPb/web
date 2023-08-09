@@ -59,22 +59,29 @@ header .nav-links li a:hover{
     color: #2fb42f;
     transform: scale(1.1);
 }
+.lema{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eceff1;
+    text-decoration: none;
+}
 
 .container{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto;
     text-align: center;
     justify-content: center;
-    align-items: center;
     width: 100%;
     margin: 15px;
     border-radius: 6px;
-    overflow: hidden;
     cursor: default;
     transition: all 400ms ease;
+    color: #eceff1;
     
 }
 .card:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 20px rgba(228, 217, 217, 0.4);
     transform: translateY(-3%);
 }
 .card img{
@@ -85,48 +92,32 @@ header .nav-links li a:hover{
     padding: 15px;
     text-align: right;
     
-
 }
 
 .card.contenido p{
     line-height: 1.5;
-    color: #6a6a6a;
-    background: #2fb4cc;
     
-
 }
 .card.contenido h3{
     font-weight: 400;
     margin-bottom: 15px;
-
-}
-.card.contenido button{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    color: #2fb42f;
-    border: 1px solid #2fb4cc;
-    border-radius: 4px;
-    transition: all 400ms ease;
-    
 }
 .container2{
     column-gap: 30px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 20%;
     text-align: center;
     justify-content: center;
-    align-items: center;
     width: 100%;
     margin: 15px;
     border-radius: 6px;
-    overflow: hidden;
-    cursor: default;
+    cursor: pointer;
     transition: all 400ms ease;
+    color: #eceff1;
     
 }
 .card2:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 20px rgba(226, 216, 216, 0.4);
     transform: translateY(-3%);
 }
 .card2 img{
@@ -136,59 +127,34 @@ header .nav-links li a:hover{
 .card2.contenido{
     padding: 15px;
     text-align: right;
-
 }
 
 .card2.contenido p{
     line-height: 1.5;
-    color: #6a6a6a;
-    
+    color: #6a6a6a; 
 }
 .card.contenido h3{
     font-weight: 400;
     margin-bottom: 15px;
-
-}
-.card.contenido button{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    color: #2fb42f;
-    border: 1px solid #d0e7eb;
-    border-radius: 4px;
-    transition: all 400ms ease;
 }
 .card.contenido h3{
     font-weight: 400;
     margin-bottom: 15px;
-
-}
-.card.contenido button{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    color: #2fb42f;
-    border: 1px solid #2fb4cc;
-    border-radius: 4px;
-    transition: all 400ms ease;
 }
 .container3{
     column-gap: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
     width: 100%;
     margin: 20px;
     border-radius: 6px;
-    overflow: hidden;
-    cursor: default;
+    cursor: pointer;
     transition: all 400ms ease;
     text-align: center;
+    color: #eceff1;
 }
 .card3:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 20px rgba(238, 223, 223, 0.4);
     transform: translateY(-3%);
 }
 .card3 img{
@@ -210,17 +176,6 @@ header .nav-links li a:hover{
 .card3.contenido h3{
     font-weight: 400;
     margin-bottom: 15px;
-
-}
-.card.contenido button{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    color: #2fb42f;
-    border: 1px solid #2fb4cc;
-    border-radius: 4px;
-    transition: all 400ms ease;
 }
 body{
     background-image: url(imagenes/fondo1.jpg);
@@ -229,3 +184,56 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+
+.pie{
+    width: 100%;
+    
+}
+.pie .grupo1{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    background-color: rgb(133, 141, 148);
+}
+
+.pie .grupo1 .box h2{
+    color: #e5eff3;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+.pie .grupo1 .box p{
+    color:#efefef;
+    margin-bottom: 10px;
+}
+.pie .grupo1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fdfdfd;
+    margin-right: 10px;
+    background-color: #656869;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie .grupo1 .red-social a:hover{
+    color: #2fb42f;
+}
+.pie .grupo2{
+    background-color: #e2f1f8;
+    padding: 10px 10px;
+    text-align: center;
+}
+.pie .grupo2 small{
+    font-size: 15px;
+}
+
+    
+
+
