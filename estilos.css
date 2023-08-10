@@ -185,8 +185,14 @@ body{
     background-attachment: fixed;
 }
 
+c.item{
+    height: 200px;
+}
+c.image{
+    height: 100%;
+}
 .pie{
-    width: 100%;
+    width: 50%;
     
 }
 .pie .grupo1{
@@ -198,6 +204,7 @@ body{
     grid-gap: 50px;
     padding: 45px 0px;
     background-color: rgb(133, 141, 148);
+    
 }
 
 .pie .grupo1 .box h2{
@@ -235,6 +242,11 @@ body{
     font-size: 15px;
 }
 
+@media (max-width: 800px){
+    #central {
+        flex-direction: column;
+    }
+}
     
 
 
