@@ -105,7 +105,7 @@ header .nav-links li a:hover{
 .container2{
     column-gap: 30px;
     display: grid;
-    grid-template-columns: 20% 20%;
+    grid-template-columns:30% 30%;
     text-align: center;
     justify-content: center;
     width: 100%;
@@ -192,12 +192,11 @@ c.image{
     height: 100%;
 }
 .pie{
-    width: 50%;
+    width: 100%;
     
 }
 .pie .grupo1{
     width: 100%;
-    max-width: 1000px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -247,6 +246,7 @@ c.image{
         flex-direction: column;
     }
 }
+
     
 
 
